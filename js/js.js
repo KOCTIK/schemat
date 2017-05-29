@@ -38,7 +38,7 @@ schemat();
 //---------------------------------------------------------------------------------------------------
  //step 1 - text 'Shemat dojazdu'
  function drawText(){
-	 var text = new fabric.Text('Shemat dojazdu', { left:CanvasWidth/2, top: CanvasHeight/2});
+	 var text = new fabric.Text('Schemat dojazdu', { left:CanvasWidth/2, top: CanvasHeight/2});
  
  text.animate('fontSize', 40, {     
 	onChange: canvas.renderAll.bind(canvas),
