@@ -36,7 +36,7 @@
 }
 schemat();
 //---------------------------------------------------------------------------------------------------
- //step 1 - text 'Shemat dojazdu'
+ //step 1 - text 'Schemat dojazdu'
  function drawText(){
 	 var text = new fabric.Text('Schemat dojazdu', { left:CanvasWidth/2, top: CanvasHeight/2});
  
